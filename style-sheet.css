@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;500;700&family=Raleway:wght@700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 5em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-size: 5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: White
+
+}
+
+h3 {
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+body {
+    background-color: black;
+}
+
+
+header {
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+
+   
+}
+footer {
+    background-color: #FAD02C;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: black;
+
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600
+}
+#logo {
+    width: 180px;
+    float: left;
+    margin: 17px 0 0 50px;
+}
+#logo img{
+    width: 40%;
+}
+#logo:hover {
+    opacity: 0.5;
+    rotate: 30°;
+}
+#logo {transition: all 300ms;}
+
+
+header nav {
+    float: right;
+    margin: 35px 50px 0 0;
+}
+header nav ul li {
+    float: left;
+    margin-right: 35px;
+    list-style: none;
+    border-radius: 1mm;
+    color: white;
+
+
+}
+header nav ul li a {
+    color: white;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+header nav ul li a:hover {
+    color: black;
+    background: grey;
+     
+}
+
+main {
+    background-color: black;
+    height: 900px;
+}
+
+#slide {
+    width: 400px;
+}
+.divs {
+    display: flex;
+    flex-direction: row;
+}
+#slogan {
+    margin-top: 250px;
+    margin-right: 50px;
+}
+#pic {
+    margin-bottom: 100px;
+}
+.formular {
+  margin: 150px; 
+  color: black
+  
+}
+.head {
+    background-color: #FAD02C;
+    border-radius: 5px;
+    margin-top: -40px;
+    -webkit-box-shadow: -2px 13px 16px -3px rgba(209,172,38,1);
+    -moz-box-shadow: -2px 13px 16px -3px rgba(209,172,38,1);
+    box-shadow: -2px 13px 16px -3px rgba(209,172,38,1);
+}
+.container {
+    margin-top: 150px;
+    background-color: black;
+    
+}
+.effect-1 {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+.effect-1 ~ .Focus-border{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #FAD02C;
+    transition: 0.4s;
+}
+.effect-1:focus ~ .Focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+.btn1 {
+    background-color: #FAD02C;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 145px;
+}
+.btn1:hover {
+    -webkit-box-shadow: -2px 13px 16px -3px rgba(209,172,38,1);
+    -moz-box-shadow: -2px 13px 16px -3px rgba(209,172,38,1);
+    box-shadow: -2px 13px 16px -3px rgba(209,172,38,1);
+}
+.top {
+    margin-top: 100px;
+    text-align: center;
+
+}
+.tup {
+    text-align: center;
+
+}
+.murgin {
+    margin: 30px 30px 30px 30px;
+    transition: transform 0.2s ease;
+
+}
+.murgin:hover {
+    transform: scale(1.1);
+}
+.hoehe {
+    height: 1350px;
+}
+header div img {
+    transition: transform 0.2s ease;
+}
+header div img:hover {
+    transform: scale(1.1)
+}
+.gallery {
+    margin-top: 200px;
+}
+#carouselExampleSlidesOnly {
+    width: 50%;
+}
+.team {
+    text-align: center;
+    margin-top: 50px;
+    transition: transform 0.2s ease;
+}
+.team:hover {
+    transform: scale(1.1);
+}
+.teammain {
+    height: 900px;
+}
